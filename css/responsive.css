@@ -1,0 +1,155 @@
+@media (max-width: 920px) {
+  .nav-menu ul li {
+    display: none;
+  }
+
+  .hamburger-menu span {
+    display: block;
+  }
+
+  .top-bar ul {
+    display: none;
+  }
+
+  .top-bar {
+    height: 3rem;
+  }
+
+  .international-container {
+    flex-wrap: wrap;
+  }
+
+  .international-inside img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .international-inside:last-child {
+    border: none;
+  }
+
+  .international-inside h1 {
+    border-bottom: 1px solid black;
+  }
+
+  .international-inside {
+    flex: 0 0 92%;
+    max-width: 92%;
+  }
+
+  .news-box {
+    flex: 0 0 48%;
+    max-width: 48%;
+    padding: 1rem;
+  }
+
+  .hamburger-menu-active {
+    display: none;
+  }
+
+  .top-bar p {
+    display: block;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 1rem;
+  }
+
+  .top-bar {
+    justify-content: flex-end;
+    padding: 0 2rem;
+  }
+
+  .contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 2rem;
+  }
+
+  .contact-inside {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  section {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  aside {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .news-box {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin: 0.6rem 0;
+  }
+
+  .swiper-slide img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .announcements-box {
+    margin: 0 0.5rem;
+  }
+
+  .news-main .news-box img {
+    height: 230px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .news-button {
+    padding: 0 1rem;
+  }
+
+  footer {
+    gap: 2rem;
+    padding: 2.5rem 4rem;
+  }
+
+  .footer-section {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .partner-upper p {
+    font-size: 0.7rem;
+    padding: 0 1rem;
+  }
+
+  .partner-upper p img {
+    width: 6%;
+  }
+
+  .stats-inside {
+    flex-wrap: wrap;
+  }
+
+  .stats-box {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 500px) {
+  .partner-upper p {
+    font-size: 0.5rem;
+  }
+
+  .videos-box {
+    padding-top: 2rem;
+  }
+}
+
+@media (max-width: 1350px) {
+  .international-inside img {
+    height: 30rem;
+  }
+}
